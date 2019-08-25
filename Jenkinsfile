@@ -31,7 +31,7 @@ pipeline {
       
       stage("Docker push Image") {
          steps {
-           sh "echo No docker push for Mongodb required'
+           sh 'echo No docker push for Mongodb required'
          }
       }
 
