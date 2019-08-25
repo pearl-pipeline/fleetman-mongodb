@@ -25,13 +25,13 @@ pipeline {
 
       stage('Docker build Image') {
          steps {
-           sh 'echo No docker image for Mongodb'
+           sh 'echo No docker image build for Mongodb required'
          }
       }
       
       stage("Docker push Image") {
          steps {
-           sh "docker push ${REPOSITORY_TAG}"
+           sh "echo No docker push for Mongodb required'
          }
       }
 
